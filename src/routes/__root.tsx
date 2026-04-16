@@ -34,6 +34,10 @@ export const Route = createRootRoute({
       { name: "author", content: "L'Épicurien" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "L'Épicurien — French Fine Dining in Kigali" },
+      { name: "twitter:title", content: "L'Épicurien — French Fine Dining in Kigali" },
+      { property: "og:description", content: "Experience authentic French gastronomy at L'Épicurien. Fine dining, garden setting, and impeccable service in the heart of Kigali's Kimihurura district." },
+      { name: "twitter:description", content: "Experience authentic French gastronomy at L'Épicurien. Fine dining, garden setting, and impeccable service in the heart of Kigali's Kimihurura district." },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
